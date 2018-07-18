@@ -1,15 +1,13 @@
 # Movie Recommender
-This is a self-learning project. It aims For this project, data is collected MovieLens data sets were collected by the GroupLens Research Project at the University of Minnesota[1].The dataset consisted of:
-     i)  100,000 ratings (1-5) from 943 users on 1682 movies. 
-    ii)  Each user has rated at least 20 movies. 
-   iii)  Simple demographic info for the users (age, gender, occupation, zip)
-   
-The main steps to build any Recommendation engine are:
+This is a movie recommender engine project. The main steps to build any Recommendation engine are:
 1) Data Collection
 2) Data Storage
 3) Data Filteration
 
-Here Data collection is done implicitly from the abovementioned source. Data is then modified and processed such that it is more meaningful and useful for performing operations.
+Here Data collection is done implicitly from: MovieLens by the GroupLens Research Project at the University of Minnesota[1].The dataset consists of:
+i)  100,000 ratings (1-5) from 943 users on 1682 movies.
+ii)  Each user has rated at least 20 movies.
+iii)  Simple demographic info for the users (age, gender, occupation, zip) Data is then modified and processed such that it is more meaningful and useful for performing operations.
 
 Data is loaded as csv file and filteration was performed. The data can be filtered in two ways: based on content or collaborative filtering.
  
