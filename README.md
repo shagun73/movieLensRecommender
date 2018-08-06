@@ -5,7 +5,7 @@ This is a movie recommender engine project. The main steps to build any Recommen
 3) Data Filteration
 
 Here Data collection is done implicitly from: MovieLens by the GroupLens Research Project at the University of Minnesota[1].The dataset consists of:
-i)  100,000 ratings (1-5) from 943 users on 1682 movies.
+i)  100,000 ratings(1-5) from 943 users on 1682 movies.
 ii)  Each user has rated at least 20 movies.
 iii)  Simple demographic info for the users (age, gender, occupation, zip) Data is then modified and processed such that it is more meaningful and useful for performing operations.
 
